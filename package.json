@@ -1,0 +1,38 @@
+{
+  "name": "typed-data-explain",
+  "version": "0.1.0",
+  "description": "Explain an EIP-712 signature request (Permit, Permit2, EIP-3009, Seaport) in one plain sentence and flag its risks before anyone signs.",
+  "type": "module",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zexoverz/typed-data-explain.git"
+  },
+  "keywords": [
+    "eip712",
+    "typed-data",
+    "permit",
+    "permit2",
+    "eip3009",
+    "wallet",
+    "security",
+    "viem"
+  ],
+  "homepage": "https://github.com/zexoverz/typed-data-explain"
+}
