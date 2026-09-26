@@ -34,5 +34,14 @@
     "security",
     "viem"
   ],
-  "homepage": "https://github.com/zexoverz/typed-data-explain"
+  "homepage": "https://github.com/zexoverz/typed-data-explain",
+  "dependencies": {
+    "viem": "^2.56.9",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  }
 }
